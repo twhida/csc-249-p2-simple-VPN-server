@@ -1,0 +1,51 @@
+<echo-server>
+Server starting - opening up shop at 127.0.0.1 with our cool entryway door with model number 65432
+
+<vpn>
+VPN starting - opening up cashier station at 127.0.0.1 with our cool tip jar and communication with the kitchen 55554
+Waiting for customers...
+
+<client>
+Welcome to Tomoko's Really Pretty Cool (RPC) Ice Cream Stand!
+
+Customer identified! - Connecting you to cashier 127.0.0.1 and port... 55554
+Would you like your order for pickup or delivery? (PICKUP/DELIVER)
+PICKUP
+Would you like a scoop, milkshake, or chipwich?
+scoop
+Specify the cup size: small, medium, large:
+small
+Specify a flavor: strawberry, chocolate, vanilla:
+vanilla
+Choose a syrup: no syrup, chocolate syrup, or cherry syrup:
+no syrup
+client starting - connecting to cashier at IP 127.0.0.1 and port 55554
+connection established, sending message 'PICKUP,scoop,small,vanilla,no syrup'
+Ice cream order sent, thank you for your patience!
+
+<vpn>
+Successfully connected to customer: We are open to orders!
+
+Destination IP and Port identified from header: '127.0.0.1','65432'
+
+<client>
+client starting - connecting to cashier at IP 127.0.0.1 and port 55554
+connection established, sending message 'PICKUP,scoop,small,vanilla,no syrup'
+Ice cream order sent, thank you for your patience!
+
+Order up! Response received from the kitchen to the cashier to you. Your order is ready: 'Here is your small vanilla scoop with no syrup for PICKUP!'
+Your order was fulfilled. Time for a Lactaid?
+
+<echo-server>
+Connected established with ('127.0.0.1', 58066). Successfully opened shop: Kitchen is open to orders!
+
+Received client order: 'PICKUP,scoop,small,vanilla,no, syrup' Current bytes: [36 bytes]
+
+Order recieved: PICKUP,scoop,small,vanilla,no, syrup
+Saying 'Here is your small vanilla scoop with no syrup for PICKUP!' to the to customer!
+
+Really Pretty Cool kitchen has completed the order, Ice cream has been given to the cashier. Closing kitchen...
+
+<client>
+Received client order: '127.0.0.1, 65432, PICKUP,scoop,small,vanilla,no, syrup' message length: [54 bytes]
+Received client order: 'PICKUP,scoop,small,vanilla,no, syrup' Current bytes: [54 bytes]
